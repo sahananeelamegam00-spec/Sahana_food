@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice & Slice | Food Paradise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h2 class="logo">🍴 Spice<span>&</span>Slice</h2>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#special">Specials</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <a href="#menu" class="nav-btn">Order Now 🛒</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <p class="tagline">🔥 FRESH FOOD • HAPPY MOOD</p>
+        <h1>Good Food.<br><span>Great Mood.</span></h1>
+        <p>Delicious flavours, fresh ingredients and unforgettable
+        bites — made with love just for you!</p>
+        <a href="#menu" class="main-btn">Explore Menu 🍔</a>
+        <a href="#special" class="second-btn">Today's Specials</a>
+        <div class="rating">⭐ 4.9/5 | Freshly Made Every Day</div>
+    </div>
+    <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=900&q=85"
+        alt="Delicious pizza">
+        <div class="floating-card">😋 Made with Love!</div>
+    </div>
+</section>
+
+<section class="features">
+    <div>🚀 <h3>Fast Delivery</h3><p>Hot food at your door</p></div>
+    <div>🥗 <h3>Fresh Ingredients</h3><p>Quality in every bite</p></div>
+    <div>👨‍🍳 <h3>Expert Chefs</h3><p>Flavour you will love</p></div>
+    <div>💖 <h3>Made for You</h3><p>Food full of happiness</p></div>
+</section>
+
+<section class="menu-section" id="menu">
+    <p class="tagline">OUR DELICIOUS COLLECTION</p>
+    <h2 class="section-title">Explore Our <span>Menu</span></h2>
+    <p class="subtitle">Find your favourite food and order it today!</p>
+
+    <input type="text" id="search" placeholder="🔍 Search your favourite food...">
+
+    <div class="filters">
+        <button class="filter active" data-category="All">All Foods</button>
+        <button class="filter" data-category="Pizza">🍕 Pizza</button>
+        <button class="filter" data-category="Burger">🍔 Burger</button>
+        <button class="filter" data-category="Indian">🍛 Indian</button>
+        <button class="filter" data-category="Drinks">🥤 Drinks</button>
+    </div>
+
+    <div class="food-grid" id="foodGrid"></div>
+    <h3 class="empty-message" id="emptyMessage" hidden>No food found 😕</h3>
+</section>
+
+<section class="special-section" id="special">
+    <div>
+        <p class="tagline">CHEF'S RECOMMENDATION</p>
+        <h2>Today's <span>Special</span> 🔥</h2>
+        <h3>Cheesy Pizza Combo</h3>
+        <p>Cheesy pizza + crispy fries + refreshing drink.</p>
+        <h2>₹299 <del>₹399</del></h2>
+        <button class="main-btn" id="specialOrder">Grab This Deal!</button>
+    </div>
+    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=85"
+    alt="Special cheesy pizza">
+</section>
+
+<section class="cart-section" id="cart">
+    <h2>🛒 Your Shopping Cart</h2>
+    <div id="cartItems">Your cart is empty.</div>
+    <h3>Total: ₹<span id="total">0</span></h3>
+    <button class="main-btn" id="checkout">Order on WhatsApp 📲</button>
+    <button class="clear-btn" id="clearCart">Clear Cart</button>
+</section>
+
+<section class="about-section" id="about">
+    <h2 class="section-title">Why Choose <span>Us?</span></h2>
+    <p>
+        At Spice & Slice, we believe every meal should be special.
+        We bring fresh ingredients, exciting flavours and quality
+        service together to make every bite memorable.
+    </p>
+    <div class="stats">
+        <div><h2>100%</h2><p>Fresh Food</p></div>
+        <div><h2>20+</h2><p>Food Choices</p></div>
+        <div><h2>Fast</h2><p>Service</p></div>
+    </div>
+</section>
+
+<section class="contact-section" id="contact">
+    <h2>Hungry? <span>Let's Connect!</span></h2>
+    <p>Have a question? Contact us or place your order today.</p>
+    <p>📧 sahananeelamegam00@gmail.com</p>
+    <p>📱 9514133418</p>
+    <a class="main-btn" href="https://wa.me/919514133418"
+    target="_blank">Chat on WhatsApp</a>
+</section>
+
+<footer>
+    <h2>🍴 Spice & Slice</h2>
+    <p>Good Food. Great Mood. ❤️</p>
+    <p>© 2026 Spice & Slice | Made with ❤️</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
